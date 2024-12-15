@@ -254,8 +254,11 @@
 }
 .audio-author{
     display: flex;
-    justify-content: flex-start;
+    justify-content: fle;
     position: relative;
+}
+.audio-detail {
+    flex: 1;
 }
 .time {
     color: white;
