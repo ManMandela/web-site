@@ -1,3 +1,4 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/webfonts/uicons-regular-rounded.css");
 * {
     box-sizing: border-box;
     margin: 0;
@@ -191,10 +192,10 @@
     padding-bottom: 20px;
     padding-left: 20px;
 }
-.img-card-1 {background-image: url(/img/img/card-1.png)}
-.img-card-2 {background-image: url(/img/img/card-2.png)}
-.img-card-3 {background-image: url(/img/img/card-3.png)}
-.img-card-4 {background-image: url(/img/img/card-4.png)}
+.img-card-1 {background-image: url(/img/img/images\ \(3\).jpg)}
+.img-card-2 {background-image: url(/img/img/imagesSh.jpg)}
+.img-card-3 {background-image: url(/img/img/images.jpg)}
+.img-card-4 {background-image: url(/img/img/a1cf05e2a310823981fdafd52a6603a5.jpg)}
 .course-desc {
     font-size: 16px;
     font-weight: 400;
@@ -253,12 +254,13 @@
 }
 .audio-author{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
 }
 .time {
     color: white;
     position: absolute;
+    justify-content: flex-end;
     top: 10px;
     right: 0;
 }
