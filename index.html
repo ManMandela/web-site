@@ -10,6 +10,7 @@
     <header class="header">
         <div class="container">
             <nav class="navigation">
+                <a href="/" class="mob-btn">=</a>
                 <a href="" class="logo">S</a>
                 <ul class="navigation-holder">
                     <li class="nav-links">
@@ -49,17 +50,30 @@
                         <span class="about-subtitle-text">About</span>
                         <p class="about-desc">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
                     </div>
-                    <div class="audio-block">
-                        <img src="/img/img/man-avatar.png" alt="">
-                        <div class="audio-container">
-                            <img src="/img/img/audio.png" alt="">
-                            <a href="#" class="play-btn">
+                    <div class="audio-holder">
+                        <div class="audio-block">
+                            <img src="/img/img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                                <div class="control">
+                                    <i class="fi-rr-play" id="playPause"></i>
+                                </div>
+                                <div class="wave"></div>
+                                <img src="/img/img/audio.png" alt="">
+                                <a href="#" class="play-btn">
                                 <img src="/img/img/icons/play.svg" alt="">
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <h2 class="info-title">Tom Hope</h2>
-                    <span class="info-subtitle">Testimonial</span>
+                    <div class="audio-holder">
+                        <h2 class="info-title">Tom Hope</h2>
+                        <span class="info-subtitle">Testimonial</span>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        <span id="current">0:00</span>
+                        <span id="duration">0:00</span>
                     </div>
                 </div>
             </section>
